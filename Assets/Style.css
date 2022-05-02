@@ -1,0 +1,19 @@
+#navigation {
+    display: flex;
+    list-style: none;
+}
+.navlist {
+    margin-right: 10px;
+}
+#nav {
+    width: 25%;
+}
+#head {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-image: url(../Pictures/test1_picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
