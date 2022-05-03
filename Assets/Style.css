@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 0px;
+    padding: 0;
 }
 body {
     text-align: center;
@@ -74,7 +74,7 @@ nav a:hover {
 }
 .content-area {
     width: 100%;
-    height: 800px;
+    height: 1600px;
     position: relative;
     background: white;
     top: 550px;
@@ -92,5 +92,70 @@ nav a:hover {
     font-size: 20px;
 }
 aside {
-    top: 500px;
+    position: relative;
+    left: 95px;
+    top: 200px;
+}
+.Box2 {
+    /* border: solid red; */
+    width: 1705px;
+    height: 500px;
+    position: relative;
+    bottom: 600px;
+    left: 95px;
+}
+.box3 {
+    width: 1705px;
+    height: 200px;
+    /* border: solid blue; */
+    position: relative;
+    left: 95px;
+    bottom: 500px;
+    background-color: #a8def7;
+}
+.box4 {
+    width: 1705px;
+    height: 50px;
+    /* border: solid yellow; */
+    position: relative;
+    left: 95px;
+    bottom: 400px;
+}
+.half {
+    width: 850px;
+    height: 450px;
+    /* border: solid black; */
+    position: relative;
+    bottom: 429px;
+    left: 850px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.half2 {
+    width: 800px;
+    height: 450px;
+    /* border: solid black; */
+    position: relative;
+    left: 0;
+    top: 0;
+    top: 25px;
+}
+.adress {
+    width: 1700px;
+    height: 100px;
+    /* border: solid red; */
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+li {
+    /* border: solid blue; */
+    width: 450px;
+    height: 50px;
+    position: relative;
+    text-align: left;
+    top: 38px;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
 }
